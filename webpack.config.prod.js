@@ -24,6 +24,7 @@ module.exports = {
 
     module: {
         rules: [
+
             {
                 test: /\.css$/i,
                 use: [{
@@ -32,6 +33,7 @@ module.exports = {
                         publicPath: '../',
                     },
                 },
+
                     'css-loader',
                 ],
                 // use: ["style-loader", "css-loader"],
